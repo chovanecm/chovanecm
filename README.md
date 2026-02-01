@@ -6,16 +6,33 @@ I enjoy turning technical curiosity into something tangible and useful.
 
 ---
 
-## 🚽 [toilet.zone](https://toilet.zone)
-Global web app helping travelers and locals find nearby public toilets quickly and reliably.  
-The idea came after a friend from Asia pointed out how surprisingly few public toilets there are in many European cities compared to Asia — and how hard it can be to find one when you actually need it.
+## 🚀 Featured Projects
 
-Built with **Next.js**, **MapLibre GL**, and **OpenStreetMap** data, toilet.zone focuses on **speed**, **clarity**, and a **clean UX**.  
-Written with AI — curated, refactored, and debugged by me.
+### 🚽 [toilet.zone](https://toilet.zone)
+Global web app helping travelers and locals find nearby public toilets quickly and reliably.  
+The idea came after a friend from Asia pointed out how surprisingly few public toilets there are in many European cities — and how hard it can be to find one when seconds count.
+
+Built with **Next.js**, **MapLibre GL**, and **OpenStreetMap** data.  
+Focuses on speed, clarity, and a clean UX.
+
+
+### 🏠 [Investiční Kalkulačka (Byt vs. ETF)](https://byt-vs-etf.streamlit.app/)
+A sophisticated decision-support tool for Real Estate investors in the **Czech Republic**.  
+It helps measure the "opportunity cost" of capital by comparing a leveraged property investment against a compounding market portfolio (S&P 500 / All-World ETF).
+
+**Why it matters:**  
+Most generic calculators ignore the specifics of the Czech market. This tool includes:
+*   **Czech Tax Optimization**: Built-in support for the "Time Test" (tax exemption after 5/10 years) and mortgage interest tax deductions.
+*   **Leverage Squeeze**: Calculates the exact "Dead Equity Trap" point — when the Return on Equity (ROE) of the property drops below the market benchmark.
+*   **Sell vs. Hold Strategy**: Dynamic projection of future Net Worth for both strategies over 30 years.
+
+Built with **Python** & **Streamlit**. Completely vibe-coded and potentially broken.
+
+Repo: [byt-vs-etf](https://github.com/chovanecm/byt-vs-etf/)
 
 ---
 
-## 🧰 ServiceNow Projects
+## 🧰 ServiceNow Ecosystem
 
 ### [tsnow](https://github.com/chovanecm/tsnow)
 TypeScript-based tools for **ServiceNow**.  
@@ -23,13 +40,12 @@ A toolkit designed to make development with ServiceNow APIs more reliable, type-
 
 ### [snow-run-python](https://github.com/chovanecm/snow-run-python)
 Platform-independent command-line interface for **ServiceNow**, written in **Python**.  
-Allows developers and admins to interact with ServiceNow instances directly from the terminal. Currently supports executing local scripts on a remote ServiceNow instance.
-
+Allows developers and admins to execute local scripts on remote ServiceNow instances directly from the terminal.
 (Supersedes the original [SnowRun](https://github.com/chovanecm/snow-run) project.)
 
 ---
 
-## 🧪 Other Past Projects
+## 🧪 Experiments & Past Work
 
 ### [Sacredboard](https://github.com/chovanecm/sacredboard)
 A web dashboard for the **Sacred** machine-learning experiment management framework.  
@@ -46,18 +62,3 @@ Supports evolving fixed-length binary genomes and basic selection/crossover/muta
 ---
 
 > “Curiosity-driven development: building things that should exist, even if nobody asked for them.”
-
-<!--
-**chovanecm/chovanecm** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
